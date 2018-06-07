@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppService", "AppService\AppService.csproj", "{DE10418C-CE91-47E4-879F-FC08FC9D1B81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScanLogSyncService", "ScanLogSyncService\ScanLogSyncService.csproj", "{F02831CA-9082-48D5-83D1-7FC36D90CFBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostCheckInService", "PostCheckInService\PostCheckInService.csproj", "{D6337D59-34F0-418D-8D26-1A28ED6E3AC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE10418C-CE91-47E4-879F-FC08FC9D1B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE10418C-CE91-47E4-879F-FC08FC9D1B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE10418C-CE91-47E4-879F-FC08FC9D1B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE10418C-CE91-47E4-879F-FC08FC9D1B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02831CA-9082-48D5-83D1-7FC36D90CFBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02831CA-9082-48D5-83D1-7FC36D90CFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02831CA-9082-48D5-83D1-7FC36D90CFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02831CA-9082-48D5-83D1-7FC36D90CFBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6337D59-34F0-418D-8D26-1A28ED6E3AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6337D59-34F0-418D-8D26-1A28ED6E3AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6337D59-34F0-418D-8D26-1A28ED6E3AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6337D59-34F0-418D-8D26-1A28ED6E3AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
